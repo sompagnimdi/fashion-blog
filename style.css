@@ -1,0 +1,56 @@
+body {
+    left: 5px;
+    min-height: 100% vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    padding: 1rem, 1rem, 2rem 2rem;
+    top: 1rem;
+    bottom: 1rem;
+    left: 2rem;
+    right: 2rem;
+}
+
+h1 {
+    color: tomato;
+    font-size: xx-large;
+}
+
+h2 {
+    color: black;
+    font-size: 40px;
+}
+
+h3 {
+    color: tomato;
+    display: block;
+    margin-left: 50rem;
+}
+
+
+nav {
+    list-style-type: none;
+}
+
+ul {
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+ul .footer-ul {
+    color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p::first-letter {
+ font-size: 5rem;
+}
+    
